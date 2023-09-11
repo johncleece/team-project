@@ -1,2 +1,0 @@
-function displayImage(e){var n=document.getElementById("imagecontainer"),o=document.createElement("img");o.src=e,o.alt="Selected Image",n.innerHTML="",n.appendChild(o)}!function(){var e={openModalBtn:document.querySelector("[burger-modal-open]"),closeModalBtn:document.querySelector("[burger-modal-close]"),modal:document.querySelector("[burger-modal]")};function n(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",n),e.closeModalBtn.addEventListener("click",n)}();
-//# sourceMappingURL=index.35a53f7b.js.map
