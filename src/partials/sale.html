@@ -11,7 +11,7 @@
               alt="sale-watch-preview1"
               width="80"
               height="80"
-              onclick="displayImage('./images/sale-watch5x2.png')"
+              onclick="displayImage(0)"
             />
           </li>
           <li class="watch-items">
@@ -21,7 +21,7 @@
               alt="sale-watch-preview2"
               width="80"
               height="80"
-              onclick="displayImage('./images/sale-watch2x3.png')"
+              onclick="displayImage(1)"
             />
           </li>
           <li class="watch-items">
@@ -31,7 +31,7 @@
               alt="sale-watch-preview3"
               width="80"
               height="80"
-              onclick="displayImage('./images/sale-watch3x4.png')"
+              onclick="displayImage(2)"
             />
           </li>
           <li class="watch-items">
@@ -41,19 +41,38 @@
               alt="sale-watch-preview4"
               width="80"
               height="80"
-              onclick="displayImage('./images/sale-watch4x4.png')"
+              onclick="displayImage(3)"
             />
           </li>
         </ul>
 
         <div class="preview-wrapper" id="imagecontainer">
           <img
-            class="sale-watch-preview"
+            class="sale-watch-preview activeimage imageselected-1" 
             src="./images/sale-watch5x2.png"
             alt="watch preview"
-            width="235"
-            height="350"
+            
+            
           />
+          <img
+            class="sale-watch-preview imageselected-2"
+            src="./images/sale-watch2x4.png"
+            alt="watch preview"
+            
+          />
+          <img
+            class="sale-watch-preview imageselected-3"
+            src="./images/sale-watch3x4.png"
+            alt="watch preview"
+            
+          />
+          <img
+            class="sale-watch-preview imageselected-4"
+            src="./images/sale-watch4x4.png"
+            alt="watch preview"
+            
+          />
+
         </div>
       </div>
       <div class="sale-info-container">

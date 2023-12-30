@@ -128,7 +128,7 @@
 #imagecontainer img {
   max-width: 100%;
   max-height: 100%;
-  display: block;
+  // display: block;
   margin: auto;
 }
 
@@ -156,10 +156,12 @@
   #imagecontainer img {
     max-width: 100%;
     max-height: 100%;
-    display: block;
+    // display: none;
     margin: auto;
   }
 }
+
+
 
 .sale-watch-preview {
   width: 235px;
@@ -168,12 +170,16 @@
   margin-bottom: -2px;
   margin-left: 20px;
   background-color: #141414;
+  display: none;
+  
 
   @media screen and (min-width: 768px) {
     width: 100%;
     height: auto;
   }
 }
+
+
 
 .sale-info-container {
   padding: 0px;
@@ -320,4 +326,9 @@
   .hero-section {
     padding: 40px 0;
   }
+}
+
+.activeimage {
+  display: block;
+  
 }
