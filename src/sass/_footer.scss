@@ -21,7 +21,7 @@
 .lower-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 174px;
+    margin-top: 100px;
 }
 
 .footer-navigation{
@@ -70,6 +70,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .footer-social-item:hover,
@@ -90,10 +91,16 @@
 .footer-social-link:focus{
     color: var(--white);
     border-color: white;
+
 }
 
 .footer-social-icon{
     fill: var(--white);
+    display: flex;
+}
+
+.footer-social-icon:hover {
+    fill: var(--dark-green);
 }
 
 .lower-text{
@@ -122,6 +129,26 @@
     gap: 18px;
 }
 
+.lowest-container{
+    margin-top: 20px;
+    border-top: 1px solid var(--light-green);
+}
+
+.webmaster{
+    color: var(--light-green);
+    text-align: center;
+    font-family: 'Epilogue';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    padding-top: 20px;
+
+    @media screen and (max-width: 767px){
+        font-size: 12px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .footer {
