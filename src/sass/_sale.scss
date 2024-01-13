@@ -86,17 +86,76 @@
 }
 
 
-.sale-watch-container{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+#imagecontainer img {
+  max-width: 100%;
+  max-height: 100%;
+  // display: block;
+  margin: auto;
 }
+
+@media screen and (min-width: 768px) {
+  .preview-wrapper {
+    width: 406px;
+    height: 614px;
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+  }
+
+  #imagecontainer {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+
+  #imagecontainer img {
+    max-width: 100%;
+    max-height: 100%;
+    // display: none;
+    margin: auto;
+  }
+
+}
+
+
 
 .sale-watch-preview {
   padding: 0;
   margin: 0;
   width: 100%;
   background-color: #141414;
+
+  display: none;
+  
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+.sale-info-container {
+  padding: 0px;
+  margin: 0px;
+  width: 335px;
+
+  @media screen and (min-width: 768px) {
+    padding: 0px;
+    margin: 0px;
+    width: 572px;
+  }
+
+  @media screen and (min-width: 1158px) {
+    width: 369px;
+  }
 }
 
 
@@ -234,4 +293,9 @@
      width: 235px;
      height: 350px;
   } 
+}
+
+.activeimage {
+  display: block;
+  
 }

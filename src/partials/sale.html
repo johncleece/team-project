@@ -9,7 +9,11 @@
               class="sale-watch"
               src="./images/sale-watch1x2.png"
               alt="sale-watch-preview1"
-              onclick="displayImage('./images/sale-watch5x2.png')"
+
+              width="80"
+              height="80"
+              onclick="displayImage(0)"
+
             />
           </li>
           <li class="watch-items">
@@ -17,7 +21,11 @@
               class="sale-watch"
               src="./images/sale-watch2x2.png"
               alt="sale-watch-preview2"
-              onclick="displayImage('./images/sale-watch2x3.png')"
+
+              width="80"
+              height="80"
+              onclick="displayImage(1)"
+
             />
           </li>
           <li class="watch-items">
@@ -25,7 +33,11 @@
               class="sale-watch"
               src="./images/sale-watch3x3.png"
               alt="sale-watch-preview3"
-              onclick="displayImage('./images/sale-watch3x4.png')"
+
+              width="80"
+              height="80"
+              onclick="displayImage(2)"
+
             />
           </li>
           <li class="watch-items">
@@ -33,17 +45,41 @@
               class="sale-watch"
               src="./images/sale-watch4x2.png"
               alt="sale-watch-preview4"
-              onclick="displayImage('./images/sale-watch4x4.png')"
+
+              width="80"
+              height="80"
+              onclick="displayImage(3)"
+
             />
           </li>
         </ul>
 
         <div class="preview-wrapper" id="imagecontainer">
           <img
-            class="sale-watch-preview"
+            class="sale-watch-preview activeimage imageselected-1" 
             src="./images/sale-watch5x2.png"
             alt="watch preview"
+
           />
+          <img
+            class="sale-watch-preview imageselected-2"
+            src="./images/sale-watch2x4.png"
+            alt="watch preview"
+            
+          />
+          <img
+            class="sale-watch-preview imageselected-3"
+            src="./images/sale-watch3x4.png"
+            alt="watch preview"
+            
+          />
+          <img
+            class="sale-watch-preview imageselected-4"
+            src="./images/sale-watch4x4.png"
+            alt="watch preview"
+            
+          />
+
         </div>
       </div>
 
